@@ -1,0 +1,1 @@
+# Infrastructure Layer - Implementações Concretas e Integrações Externas
