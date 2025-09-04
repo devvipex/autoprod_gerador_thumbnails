@@ -20,7 +20,7 @@ from domain.entities import Transform, AppState
 
 # Configuração da página mobile-friendly
 st.set_page_config(
-    page_title="Autoprod 0.1",
+    page_title="Thumbnail Generator v1.0.3",
     page_icon="▲",
     layout="wide",
     initial_sidebar_state="expanded"
@@ -69,7 +69,7 @@ def load_available_backgrounds():
 
 def render_mobile_header():
     """Renderiza cabeçalho mobile-friendly"""
-    st.title("Autoprod 0.1")
+    st.title("Thumbnail Generator v1.0.3")
     st.markdown("Gerador profissional de thumbnails para produtos")
 
 def render_upload_section():
